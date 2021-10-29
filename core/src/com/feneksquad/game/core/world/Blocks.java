@@ -1,8 +1,6 @@
 package com.feneksquad.game.core.world;
 
 import com.badlogic.gdx.Gdx;
-import com.feneksquad.game.core.world.Block;
-
 import java.util.HashMap;
 
 public class Blocks {
