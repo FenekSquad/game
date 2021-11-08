@@ -6,8 +6,8 @@ import static com.feneksquad.game.MyGdxGame.gameCamera;
 
 public class GameCameraController {
     public static void setPosition(Player player) {
-        float x = player.x + (player.width / 2) - (gameCamera.W / 2f);
-        float y = player.y + (player.height / 2) - (gameCamera.H / 2f);
+        float x = player.getX() + (player.width / 2) - (gameCamera.W / 2f);
+        float y = player.getY() + (player.height / 2) - (gameCamera.H / 2f);
         gameCamera.lookAt(x, y, true);
     }
 }
